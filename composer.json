@@ -1,10 +1,12 @@
 {
-    "name": "charles-g/omnipay-hipay",
+    "name": "luciano-jr/omnipay-hipay",
     "type": "library",
     "autoload": {
-        "psr-4": { "Omnipay\\Hipay\\" : "src/" }
+        "psr-4": {
+            "Omnipay\\Hipay\\" : "src/"
+        }
     },
     "require": {
-        "omnipay/common": "~2.0"
+        "omnipay/common": "^2.5"
     }
 }

@@ -2,9 +2,9 @@
 
 namespace Omnipay\Hipay\Message;
 
-use Omnipay\Common\Message\ResponseInterface;
+use Omnipay\Common\Message\AbstractRequest;
 
-class Request extends \Omnipay\Common\Message\AbstractRequest
+class Request extends AbstractRequest
 {
     const API_VERSION = '';
 
